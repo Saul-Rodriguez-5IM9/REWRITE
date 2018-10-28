@@ -8,17 +8,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="../CSS/materialize.css"  media="screen,projection"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>ReWrite - Login</title>
-
-        
     </head>
-    <body>
-        <div class="container">
+    <body class="grey darken-1 ">
+        <nav>
+            <div class="nav-wrapper white">
+                <div class="row">
+                    <div class="col s2 l2 m2 xl2 offset-l5 offset-xl5 offset-s4 offset-m4">
+                        <a href="../index.html" class="brand-logo"><img class="responsive-img center-align" style="padding: 10px" src="../IMG/logo.jpg"/></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container ">
             <div class="row white z-depth-4 section col s12 l12 m12 xl12">
                 <div class="row ">
                     <div class="col s2 l2 m2 xl2 offset-l10 offset-xl10 offset-s8 offset-m9">
@@ -38,8 +44,8 @@
                             <form action="" method="">
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <input id="email" type="email" name="email" class="validate">
-                                        <label class="" for="email">Correo Electrónico</label>
+                                        <input id="usuario" type="text" name="usuario" class="validate">
+                                        <label class="" for="usuario">Correo o nombre de usuario</label>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -50,7 +56,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <input type="submit"  class="btn waves-effect waves-light blue" value="ACEPTAR" name="aceptar">
+                                        <input type="submit"  class="btn waves-effect waves-light blue" value="ENVIAR" name="aceptar">
                                     </div>
                                 </div>
                             </form>
