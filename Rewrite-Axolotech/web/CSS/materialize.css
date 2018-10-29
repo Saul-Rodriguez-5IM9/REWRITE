@@ -3432,19 +3432,19 @@ table span.badge {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  /*max-width: 1280px;*/
   width: 90%;
 }
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%;
+    width: 90%;
   }
 }
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -5258,7 +5258,7 @@ small {
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #64b5f6;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
@@ -5267,7 +5267,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover, .btn-small:hover {
-  background-color: #2bbbad;
+  background-color: #9be7ff;
 }
 
 .btn-floating {
@@ -5280,7 +5280,7 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #2286c3;
   border-radius: 50%;
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
