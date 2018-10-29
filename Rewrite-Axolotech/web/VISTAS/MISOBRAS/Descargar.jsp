@@ -12,6 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../../JS/materialize.min.js"></script>
+        <script type="text/javascript" src="../../JS/init.js"></script>
     </body>
 </html>
